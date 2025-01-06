@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LG isai V30+に香港版ROMを焼く</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Kさんのメモ</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">ホーム</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article class="full-post">
+      <h1>LG isai V30+に香港版ROMを焼く</h1>
+      <p>投稿日: 2025年1月6日</p>
+      <p>2017年かそこらに発売されたLG isai V30+。メインはさすがにきついですが、サブならまだいけるスペック（多分）。</p>
+      <p>今回はこいつで遊んでいきます。何をするかというと、こいつに香港版LG V30+ ThinQのROMを焼いてやります。</p>
+      <p>焼くことで何ができるかというと、auアプリが消える、それだけです。</p>
+      <p>デメリットは、修理依頼できなくなる、壊れるかもしれない、多分SIM使えなくなる、元に戻せない、データが消える、です。</p>
+      <p>お前デメリットのほうが大きいじゃねえかと思いましたか？その通りです。でもいいんです（ヤケクソ）</p>
+<h2>・始める前に</h2>
+<h1 class=yourownrisk>自己責任</h1><p>でお願いします。壊れても筆者は責任をとれません。</p>
+<h2>・必要なファイル</h2>
+<p>・なんか特殊なLGUP</p>
+<p><a href=https://androidfilehost.com/?fid=11410963190603845019 target="_blank">ダウンロード</p></a>
+  <p>・香港版V30+ Android8.0のkdz</p>
+  <p><a href="https://androidfilehost.com/?fid=746163614322267222" target="_blank">ダウンロード</p></a>
+  <p>・香港版V30+ Android9.0のkdz</p>
+  <p><a href=https://lgrom.com/firmware/LGH930DS/HKG/H93030S_00/5735 target="_blank">ダウンロード</a></p>たあと、
+  <h2>・焼いていく</h2>
+  <p>1. LGUP_DualMode.zipを解凍してLGUP_Store_Frame_Ver_1_14_3.msiを実行してインストール</p>
+  <p>2. SetDev.batを管理者として実行</p>
+  <p>3. デバイス側での操作、電源を切り音量アップを押しながらpcとケーブルでつなぎます。Firmware Updateという画面が出てきます。なんか怖いよね</p>
+  <p>4. LGUPD.exeを実行、H930DS20n_00_OPEN_HK_DS_OP_0416.kdzをセットして、Partition DLを選んでStart、なんか出てくるので全部選んでOK、処理が始まります。絶対にケーブルを抜かないでください。抜いたら多分壊れるので抜いたならまな板にでもしましょう。</p>
+  <p>5. Android 8が起動すると思います。ブートループし始めたらファクトリーリセットしてください。電源を長押しして切ったあと、音量ダウンと電源を押して電源を入れ、LG V30+ ThinQと出てきたら電源ボタンだけ離し、すぐにまた電源ボタンを押しつづけます。なんか出てくるので、ボタンを使ってOKを二回押します。</p>
+  <p>6. 起動したらまた電源を切り、先ほどと同じように操作してDownload Modeに入ります。またLGUPを開いて、今度はH930DS30s_00_OPEN_HK_DS_OP_0902.kdzをセットして、Refurbish選んでStart、完了してAndroid9が起動したら成功です。お疲れさまでした。（なんかあったら適当にファクトリーリセットしとけばたいてい治る（適当））
+    <h2>・Wi-Fiが使えない場合</h2>
+    <p>Wi-Fiが使えない場合はやり直してみてください。筆者はやり直すと治りました。</p>
+<br>
+    <p>ぶっちゃけ変わらないので話すこともないですね()</p>
+  </p>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2025 Kさんのメモ. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
